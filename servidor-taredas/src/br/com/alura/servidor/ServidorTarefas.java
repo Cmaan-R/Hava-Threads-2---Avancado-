@@ -19,7 +19,6 @@ public class ServidorTarefas {
 			DistribuirTarefas distribuirTarefas = new DistribuirTarefas(socket);
 			Thread threadCliente = new Thread(distribuirTarefas);
 			threadCliente.start();
-			System.out.println();
 
 		}
 
