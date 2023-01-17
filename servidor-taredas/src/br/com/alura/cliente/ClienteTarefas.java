@@ -23,7 +23,7 @@ public class ClienteTarefas {
 		saida.close();
 		teclado.close();
 		socket.close();
-//		
+		
 	}
 
 }
