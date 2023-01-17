@@ -27,7 +27,7 @@ public class DistribuirTarefas implements Runnable {
 			entradaCliente.close();
 		} catch (Exception e) {
 			throw new RuntimeException();
-
+//
 		}
 
 	}
